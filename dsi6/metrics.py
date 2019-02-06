@@ -44,7 +44,7 @@ class ClassificationMetrics:
         self.precision_ = self.tp / (self.tp + self.fp)
         self.negative_predictive_value_ = self.tn / (self.tn + self.fn)
         self.false_positive_rate_ = 1 - self.specificity_
-        self.false_negative_rate_ = self.fp / (self.fp + self.tn)
+        self.false_negative_rate_ = 1 - self.sensitivity_
         
         
     def describe(self):
