@@ -8,8 +8,6 @@ class ClassificationMetrics:
         self.cm = None
         self.tn, self.fp, self.fn, self. tp = None
         self.confusion_matrix = None
-                                None
-                                None
         
         self.accuracy_ = None
         self.misclassification_ = None

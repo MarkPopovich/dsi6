@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
      name='dsi6',  
-     version='0.6.2',
+     version='0.6.3.1',
      author="San Francisco dsi-cc6 cohort, shout out to Ritchie Kwan for providing the final code",
      author_email="mpopovich@gmail.com",
      description="Mostly metrics right now, by and for dsi students",
